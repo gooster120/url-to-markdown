@@ -1,0 +1,35 @@
+{
+  "name": "md4llm",
+  "version": "1.0.0",
+  "description": "HTML to Markdown converter optimized for LLM/RAG workflows",
+  "main": "lib/converter.js",
+  "bin": {
+    "md4llm": "./bin/md4llm.js"
+  },
+  "scripts": {
+    "test": "node test/converter.test.js"
+  },
+  "keywords": [
+    "html",
+    "markdown",
+    "llm",
+    "rag",
+    "converter",
+    "cli",
+    "turndown",
+    "scraper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@joplin/turndown-plugin-gfm": "^1.0.56",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "jsdom": "^23.0.1",
+    "turndown": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

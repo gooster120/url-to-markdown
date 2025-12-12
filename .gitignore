@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+cli/node_modules/
+
+# Output files
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CLI output
+md4llm-output/
+*.md.tmp
+
+# Package lock (optional - remove if you want to lock versions)
+# package-lock.json
